@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 
 import { FaBars, FaTimes, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineGithub, AiOutlineInstagram } from 'react-icons/ai'
+import Menu from "./Menu";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -56,7 +57,7 @@ const Navbar = () => {
 
         {/* ==================== Updates Menu ==================== */}
         <div className="hidden 2xl:flex mr-4 absolute left-[50%] top-2 translate-x-[-50%]">
-          Menu
+          <Menu />
         </div>
 
         {/* ==================== Links ==================== */}
