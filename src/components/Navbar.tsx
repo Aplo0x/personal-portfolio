@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import { FaBars, FaTimes, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineGithub, AiOutlineInstagram } from 'react-icons/ai'
@@ -27,6 +27,19 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
+
+  useEffect(() => {
+    const changeColor = () => {
+      if (window.scrollY >= 90) {
+        setColor("#111111");
+        setTextColor("#ffffff");
+      } else {
+        setColor("transparent");
+        setTextColor("#ffffff");
+      }
+    };
+    window.addEventListener("scroll", changeColor);
+  }, []);
 
   return (
     <header
