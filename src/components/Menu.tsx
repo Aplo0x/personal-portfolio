@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 
 const Menu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const menuRef = useRef(null);
+  const menuRef = useRef(null as any);
 
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
