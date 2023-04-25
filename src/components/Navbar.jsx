@@ -55,17 +55,13 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* ==================== Updates Menu ==================== */}
-        <div className="hidden 2xl:flex mr-4 absolute left-[50%] top-2 translate-x-[-50%]">
-          <Menu />
-        </div>
-
         {/* ==================== Links ==================== */}
         <nav style={{ color: `${textColor}` }} className="hidden md:flex">
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
           <CustomLink href="/contact" title="Contact" className="ml-4" />
+          <Menu />
         </nav>
 
         {/* ==================== Burger Icon ==================== */}
