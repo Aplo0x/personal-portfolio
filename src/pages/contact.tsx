@@ -44,7 +44,6 @@ export default function contact() {
               <textarea
                 name="message"
                 id="message"
-                rows="5"
                 className="bg-transparent border-b w-full focus:outline-none focus:border-red transition duration-300 ease-in-out"
               ></textarea>
             </div>
