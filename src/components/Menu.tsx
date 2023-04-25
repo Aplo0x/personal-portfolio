@@ -70,7 +70,6 @@ const Menu = () => {
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="menu-button"
-            tabIndex="-1"
           >
             <ul>
               <li className="mb-3">&gt; Add animations</li>
