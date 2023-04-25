@@ -85,6 +85,7 @@ const Menu = () => {
               <li className="mb-3">
                 &gt; change this menu to be a sidebar (?)
               </li>
+              <li className="mb-3">&gt; Make the contact section functional</li>
               <li className="mb-3">&gt; Add a footer</li>
             </ul>
           </div>
