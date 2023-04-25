@@ -8,7 +8,7 @@ const Menu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleClickOutsideMenu = (event) => {
+  const handleClickOutsideMenu = (event: any) => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
       setIsMenuOpen(false);
     }
