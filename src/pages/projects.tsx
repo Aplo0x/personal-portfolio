@@ -22,22 +22,21 @@ export default function projects() {
             {/* ==================== Project Card 1 ==================== */}
             <div className="card border rounded-md overflow-hidden transform hover:scale-105 transition duration-300">
               <img
-                src="https://blog.milvus.com.br/wp-content/uploads/ramsonware.png"
+                src="https://i0.wp.com/www.cienciaedados.com/wp-content/uploads/2022/01/3-Estrategias-Para-Trabalhar-com-Grandes-Conjuntos-de-Dados-em-Python.jpg?fit=1200%2C600&ssl=1"
                 alt="Project 1"
                 className="w-full h-48 object-cover rounded-t-md"
               />
               <div className="p-4">
                 <h3 className="text-lg font-medium text-white mb-2">
-                  Project 1
+                  Password Checker
                 </h3>
                 <p className="mb-4">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  A simple password checker I created using Python and Jupyter Notebook, will be adding a generator in the near future
                 </p>
                 <a
-                  href="https://github.com/Aplo0x"
+                  href="https://github.com/Aplo0x/pwd_checker"
                   target="_blank"
-                  className="inline-block px-4 py-2 text-white font-semibold rounded-md transition duration-300"
+                  className="inline-block px-4 py-2 text-white font-semibold rounded-md transition duration-300 link"
                 >
                   Learn more
                 </a>
@@ -45,7 +44,7 @@ export default function projects() {
             </div>
 
             {/* ==================== Project Card 2 ==================== */}
-            <div className="card border rounded-md overflow-hidden transform hover:scale-105 transition duration-300">
+            {/* <div className="card border rounded-md overflow-hidden transform hover:scale-105 transition duration-300">
               <img
                 src="https://www.digitalsilk.com/wp-content/uploads/2022/09/website-development-process-1.jpg"
                 alt="Project 2"
@@ -67,10 +66,10 @@ export default function projects() {
                   Learn more
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* ==================== Project Card 3 ==================== */}
-            <div className="card border rounded-md overflow-hidden transform hover:scale-105 transition duration-300">
+            {/* <div className="card border rounded-md overflow-hidden transform hover:scale-105 transition duration-300">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnetjmdQ6Lmgo5XLvq3YBUynmjW4Jhk5qUeg&usqp=CAU"
                 alt="Project 3"
@@ -92,7 +91,7 @@ export default function projects() {
                   Learn more
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
